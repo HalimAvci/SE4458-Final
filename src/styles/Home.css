@@ -1,0 +1,111 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f8ff, #d9e4f5);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    position: relative;
+}
+
+.admin-login {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.admin-button {
+    background-color: #dc2626;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.admin-button:hover {
+    background-color: #b91c1c;
+    transform: scale(1.05);
+}
+
+.home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1e40af;
+    text-align: center;
+}
+
+.home-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+    text-align: center;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.home-button {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-blue {
+    background-color: #1e40af;
+    color: white;
+}
+
+.button-blue:hover {
+    background-color: #3749a3;
+    transform: scale(1.05);
+}
+
+.button-green {
+    background-color: #16a34a;
+    color: white;
+}
+
+.button-green:hover {
+    background-color: #128a3a;
+    transform: scale(1.05);
+}
+
+.button-orange {
+    background-color: #ffa500;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-orange:hover {
+    background-color: #ff7f00;
+    transform: translateY(-2px);
+}
+
+.button-orange:active {
+    transform: translateY(0);
+}

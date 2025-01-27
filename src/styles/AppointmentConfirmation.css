@@ -1,0 +1,97 @@
+.appointment-confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #f5f7fa, #dfe9f3);
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    text-align: center;
+    box-shadow: inset 0px 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.appointment-confirmation-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3498db;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.appointment-confirmation-container p {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    color: #34495e;
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.appointment-confirmation-container p:hover {
+    transform: scale(1.02);
+    background-color: #f9fafb;
+}
+
+.appointment-confirmation-container p span {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.appointment-confirmation-container .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.confirmation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.confirm-button,
+.back-button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+.confirm-button {
+    background-color: #28a745;
+}
+
+.confirm-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.back-button {
+    background-color: #6c757d;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
+
+.confirm-button:active,
+.back-button:active {
+    transform: scale(0.95);
+}
