@@ -66,7 +66,7 @@ exports.messageAppointment = (req, res) => {
                         service: 'gmail',
                         auth: {
                             user: 'halim.avci.se@gmail.com',
-                            pass: 'fjse wuen jxyx cqed',
+                            pass: '***',
                         },
                     });
 
