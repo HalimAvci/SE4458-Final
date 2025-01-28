@@ -14,7 +14,6 @@ amqp.connect('amqp://localhost', (error0, connection) => {
         const queue = 'appointment_notifications';
         const message = JSON.stringify({
             email: 'halim.avci20@gmail.com',
-            doctorName: 'John Doe',
         });
 
         channel.assertQueue(queue, {
