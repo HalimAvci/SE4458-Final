@@ -1,6 +1,6 @@
 # Presentation Link
 
-https://drive.google.com/file/d/1iNjGtW7Z8iuwp_sst8Z7tfflOpOuOPYo/view
+https://drive.google.com/file/d/1iNjGtW7Z8iuwp_sst8Z7tfflOpOuOPYo/view?usp=sharing
 
 Note: The audio recording is missing due to issues with finding a suitable microphone.
 
