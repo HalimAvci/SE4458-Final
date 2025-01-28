@@ -139,6 +139,36 @@ src/
 
 ---
 
+## Data Model
+
+### **Doctor (MySQL Table)**
+
+| Column Name      | Data Type       | Description                              |
+|------------------|-----------------|------------------------------------------|
+| `id`             | INT (Primary)  | Unique doctor ID.                        |
+| `fullname`       | VARCHAR(255)   | Full name of the doctor.                 |
+| `specialization` | VARCHAR(255)   | Area of expertise or specialization.     |
+| `address`        | TEXT           | Doctor's address.                        |
+| `city`           | VARCHAR(100)   | City where the doctor operates.          |
+| `country`        | VARCHAR(100)   | Country of operation.                    |
+| `email`          | VARCHAR(255)   | Email address for the doctor.            |
+| `status`         | ENUM('pending', 'approved') | Registration status.            |
+
+---
+
+### **Appointment (MySQL Table)**
+
+| Column Name      | Data Type       | Description                              |
+|------------------|-----------------|------------------------------------------|
+| `id`             | INT (Primary)  | Unique appointment ID.                   |
+| `doctor_id`      | INT (Foreign)  | ID of the doctor linked to this appointment. |
+| `name`           | VARCHAR(255)   | Name of the patient.                     |
+| `date`           | DATE           | Appointment date.                        |
+| `time`           | TIME           | Appointment time.                        |
+| `comments`       | TEXT           | Additional comments from the user.       |
+
+---
+
 ## Screenshots
 
 ### Postman
