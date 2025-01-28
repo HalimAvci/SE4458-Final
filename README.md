@@ -114,10 +114,14 @@ src/
 
 ## API Endpoints
 
+### **Doctors**
+- **POST /api/doctors/register**: Register a new doctor.
+- **GET /api/doctors/pending**: Retrieve a list of pending doctor registrations.
+- **PUT /api/doctors/approve/:id**: Approve a doctor's registration.
+- **GET /api/doctors/search**: Search for doctors by name, specialization, city, or country.
 ### **Appointments**
 - **POST /api/appointments**: Create a new appointment.
 - **GET /api/appointments**: Retrieve all appointments.
-- **GET /api/appointments/doctor/:id**: Retrieve appointments for a specific doctor.
 - **DELETE /api/appointments/:id**: Delete an appointment by ID.
 
 ### **Comments**
