@@ -30,7 +30,7 @@ amqp.connect('amqp://localhost', (error0, connection) => {
                     service: 'gmail',
                     auth: {
                         user: 'halim.avci.se@gmail.com',
-                        pass: 'fjse wuen jxyx cqed',
+                        pass: '***',
                     },
                 });
 
